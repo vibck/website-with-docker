@@ -9,32 +9,30 @@ index.html: Die statische Website, die bereitgestellt wird.
 
 # Voraussetzungen
 
-Installiertes Docker.
-Grundkenntnisse in der Verwendung von Git und Docker.
+Installiertes Docker (https://www.docker.com/)
 
-#Anleitung
-
-Docker-Image bauen
+# Anleitung
 
 Führe folgenden Befehl aus, um das Docker-Image zu erstellen:
 
-bash
-Code kopieren
-docker build -t vibck/website-with-docker .
-Container starten
+```bash```
+docker build -t vibck/website-with-docker . 
+
 Starte den Container mit:
 
-bash
-Code kopieren
+```bash```
 docker run -d -p 8080:80 vibck/website-with-docker
 
-#Website anzeigen
+**Website anzeigen**
+
 Öffne die Website im Browser:
 http://localhost:8080
 
-#Vorschau
+**Vorschau**
+
 Die Website zeigt eine einfache Willkommensnachricht und wird von einem Docker-Container mit Nginx bereitgestellt.
 
-#Weitere Schritte
+**Weitere Schritte**
+
 Passen Sie den Inhalt der index.html-Datei an, um die Website zu personalisieren.
 Erweitern Sie das Projekt durch Hinzufügen weiterer statischer oder dynamischer Ressourcen.
