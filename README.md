@@ -1,14 +1,21 @@
-Website with Docker
+# Website with Docker
+
 Dieses Projekt zeigt, wie man eine einfache statische Website mit Docker und Nginx hostet.
 
-Projektübersicht
+# Projektübersicht
+
 Dockerfile: Enthält die Anweisungen zur Erstellung des Docker-Images.
 index.html: Die statische Website, die bereitgestellt wird.
-Voraussetzungen
+
+# Voraussetzungen
+
 Installiertes Docker.
 Grundkenntnisse in der Verwendung von Git und Docker.
-Anleitung
+
+#Anleitung
+
 Docker-Image bauen
+
 Führe folgenden Befehl aus, um das Docker-Image zu erstellen:
 
 bash
@@ -20,13 +27,14 @@ Starte den Container mit:
 bash
 Code kopieren
 docker run -d -p 8080:80 vibck/website-with-docker
-Website anzeigen
+
+#Website anzeigen
 Öffne die Website im Browser:
 http://localhost:8080
 
-Vorschau
+#Vorschau
 Die Website zeigt eine einfache Willkommensnachricht und wird von einem Docker-Container mit Nginx bereitgestellt.
 
-Weitere Schritte
+#Weitere Schritte
 Passen Sie den Inhalt der index.html-Datei an, um die Website zu personalisieren.
 Erweitern Sie das Projekt durch Hinzufügen weiterer statischer oder dynamischer Ressourcen.
